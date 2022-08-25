@@ -276,7 +276,7 @@
                     <navigationItem key="navigationItem" id="UEb-it-FUa"/>
                     <connections>
                         <outlet property="mapView" destination="H1u-b4-VIr" id="jFN-jW-crP"/>
-                        <segue destination="gdh-qg-OVw" kind="presentation" modalPresentationStyle="fullScreen" id="g5m-P8-GJs"/>
+                        <segue destination="gdh-qg-OVw" kind="presentation" identifier="fromMapVCToPlacesVC" modalPresentationStyle="fullScreen" id="g5m-P8-GJs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avy-Co-ybN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
